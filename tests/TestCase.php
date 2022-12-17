@@ -3,8 +3,8 @@
 namespace Lodeb\WeightConversions\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Lodeb\WeightConversions\WeightConversionsServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
