@@ -2,9 +2,9 @@
 
 namespace Lodeb\WeightConversions;
 
+use Lodeb\WeightConversions\Commands\WeightConversionsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lodeb\WeightConversions\Commands\WeightConversionsCommand;
 
 class WeightConversionsServiceProvider extends PackageServiceProvider
 {
