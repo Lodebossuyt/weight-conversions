@@ -4,7 +4,7 @@ All notable changes to `weight-conversions` will be documented in this file.
 
 ## 1.2.0 - 2022-12-18
 
-- add 'toBanana'
+- add 'toBananas'
 
 ## 1.1.0 - 2022-12-18
 
