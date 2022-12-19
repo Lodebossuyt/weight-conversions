@@ -25,4 +25,9 @@ class WeightConversions
     {
         return $this->kilograms * 0.15747;
     }
+
+    public function toBananas(): float
+    {
+        return $this->kilograms * 0.118;
+    }
 }

@@ -45,7 +45,10 @@ php artisan vendor:publish --tag="weight-conversions-views"
 
 ```php
 $weightConversions = new Lodeb\WeightConversions();
-echo $weightConversions->echoPhrase('Hello, Lodeb!');
+
+echo $weightConversions->kilograms(100)->toPounds();
+
+echo $weightConversions->kilograms(100)->toBananas();
 ```
 
 ## Testing
